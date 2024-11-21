@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .cem{
+        height: 100vh;
+        width: 100vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    #caixa{
+        height: 50vh;
+        width: 40vw;
+
+        border: black 1px solid;
+        border-radius: 10px;
+
+       background-color: rgb(255, 255, 255);
+       padding: 5px;
+    }   
+    .onde{
+        justify-content: end;
+        display: flex;
+    }
+    #bt{
+        padding: 15px;
+        background-color: white;
+        border: black 1px solid;
+        border-radius: 10px;
+    }
+    #titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+</style>
+<body>
+    <div class="cem">
+        <div id="caixa">
+            <div class="onde">
+                <button id="bt"></button>
+            </div>
+            <div class="pesquisa">
+                <div id="titulo">
+                    <p>Lista de Tarefas</p>
+                </div>
+                <div>
+                    <label for="pesquisa"></label>
+                    <input type="text">
+                    <button id="btn"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
